@@ -23,6 +23,7 @@ reportWebVitals();
 // ``npm run build``로 실행하면 production
 console.log('process.env.NODE_ENV', process.env.NODE_ENV);
 console.log('process.env.REACT_APP_API_URL', process.env.REACT_APP_API_URL);
+console.log('process.env.REACT_APP_TEMP1', process.env.REACT_APP_TEMP1);
 
 // REACT_APP_API_URL = api.myapp.com npm start
 // window
