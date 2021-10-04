@@ -15,3 +15,15 @@ ReactDOM.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+// process.env.(변수이름)
+// process.env.NODE_ENV
+// ``npm start``로 실행하면 development
+// ``npm test``로 실행하면 test
+// ``npm run build``로 실행하면 production
+console.log('process.env.NODE_ENV', process.env.NODE_ENV);
+console.log('process.env.REACT_APP_API_URL', process.env.REACT_APP_API_URL);
+
+// REACT_APP_API_URL = api.myapp.com npm start
+// window
+// set 'REACT_APP_API_URL=api.myapp.com' && npm start
